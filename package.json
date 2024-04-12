@@ -1,0 +1,32 @@
+{
+  "name": "pwa-text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "dev": "webpack-dev-server",
+    "build": "webpack --mode production",
+    "start": "webpack --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew-seatter/PWA-text-editor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrew-seatter/PWA-text-editor/issues"
+  },
+  "homepage": "https://github.com/Andrew-seatter/PWA-text-editor#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
